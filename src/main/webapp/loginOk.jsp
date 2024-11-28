@@ -15,8 +15,9 @@
 		
 		// 회원ID가 tiger이고 비밀번호가 12345일 경우에만 로그인 성공
 		if((memberid.equals("tiger")) && (memberpw.equals("12345"))) {
-			session.setAttribute("sessionId", memberid);   // 세션에 id 저장하기 
 			session.setAttribute("validMem", "yes");   // 로그인 여부만 확인
+			session.setAttribute("sessionId", memberid);   // 세션에 id 저장하기 
+			session.setAttribute("sessionPw", memberpw);   // 세션에 pw 저장하기 
 			
 			out.println(memberid+"로그인 성공!!");
 		} else {

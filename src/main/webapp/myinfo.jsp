@@ -30,6 +30,7 @@
    		}
    %>
 	<br><br>
-	<a href="logout.jsp">로그 아웃</a>	
+	<a href="logout.jsp">로그 아웃</a>	<br><br>
+	<a href="sessionTime.jsp">세션의 유효시간 보기</a>			
 </body>
 </html>
