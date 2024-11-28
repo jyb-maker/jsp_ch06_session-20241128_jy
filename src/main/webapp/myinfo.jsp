@@ -30,8 +30,6 @@
    		}
    %>
 	<br><br>
-	<a href="logout.jsp">로그 아웃</a>
-		
-	
+	<a href="logout.jsp">로그 아웃</a>	
 </body>
 </html>
