@@ -29,7 +29,9 @@
    			response.sendRedirect("login.jsp");
    		}
    %>
-	
+	<br><br>
+	<a href="logout.jsp">로그 아웃</a>
+		
 	
 </body>
 </html>

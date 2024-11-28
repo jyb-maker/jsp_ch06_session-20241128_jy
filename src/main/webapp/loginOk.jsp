@@ -23,8 +23,8 @@
 			out.println("로그인 실패!! 아이디와 비번을 다시 확인하세요.");
 		}
 								
-%>
+%>	<br><br>
 	<a href="myinfo.jsp">내 정보보기 페이지로 가기</a>
-
+    <br><br>
 </body>
 </html>
