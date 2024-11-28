@@ -18,12 +18,13 @@
 			session.setAttribute("sessionId", memberid);   // 세션에 id 저장하기 
 			session.setAttribute("validMem", "yes");   // 로그인 여부만 확인
 			
-			out.println("로그인 성공!!");
+			out.println(memberid+"로그인 성공!!");
 		} else {
 			out.println("로그인 실패!! 아이디와 비번을 다시 확인하세요.");
 		}
 								
-	%>
-	<%= memberid %> 님 로그인 성공하셨습니다. 
+%>
+	<a href="myinfo.jsp">내 정보보기 페이지로 가기</a>
+
 </body>
 </html>
